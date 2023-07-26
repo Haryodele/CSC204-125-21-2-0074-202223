@@ -23,12 +23,12 @@ class SingleLinkedList:
             present_node.next_node = new_node
 
         # Creating the display method
-        def display(self):
-            present_node = self.head
-            while present_node:
-                print(present_node.data, end=" --> ")
-                present_node = present_node.next_node
-            print("Null")
+    def display(self):
+        present_node = self.head
+        while present_node:
+            print(present_node.data, end=" --> ")
+            present_node = present_node.next_node
+        print("Null")
 
     ###Other Linkedlist operation
     ##Adding new element
