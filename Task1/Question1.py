@@ -28,7 +28,7 @@ class SingleLinkedList:
         while present_node:
             print(present_node.data, end=" --> ")
             present_node = present_node.next_node
-        print("Null")
+        print("Null") 
 
     ###Other Linkedlist operation
     ##Adding new element
